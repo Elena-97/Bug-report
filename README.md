@@ -21,11 +21,17 @@ Below are some Bug report samples that I wrote while working on previos projects
 7. Click on the "Place order" button.
 
 **Expected results**: The successfully order must contain a valid shipping address.
+
 **Actual results**: The order succeed with invalid shipping address.
+
 **Occurrence**: systematic
+
 **Severity**: Medium
+
 **Piority**: High
+
 **Module**: Order
+
 **Browser**: Chrome
 
 ------------------
