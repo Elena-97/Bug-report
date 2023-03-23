@@ -57,7 +57,9 @@ Below are some Bug report samples that I wrote while working on previos projects
 
 
 **Title**:Logged out after refresh
+
 **Description**: In the My account page when the "Refresh" button is pressed the site log out from the account..
+
 **Preconditions**: Navigate to https://demo.prestashop.com/
 
 **Steps to reproduce**.
@@ -66,12 +68,19 @@ Below are some Bug report samples that I wrote while working on previos projects
 3. Refresh the page.
 
 **Expected results**: I am logged in the account after refresh and my account page is displyed.
+
 **Actual results**: The home page is displayed after refresh and the page log-out my account.
+
 **Additional info**: This issue is reproduce in all categories of the site.
+
 **Occurrence**: Systematic
+
 **Severity**:High
+
 **Priority**: High
+
 **Module**: Sing in.
+
 **Browser**: Edge.
 
 ------------------
