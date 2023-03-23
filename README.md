@@ -4,6 +4,7 @@ Below are some Bug report samples that I wrote while working on previos projects
 
 
 **Title**:Order is successfully with invalid shipping address.
+
 **Description**: The order is accepted with an invalid shipping address.
 
 **Precondition**:
@@ -37,7 +38,9 @@ Below are some Bug report samples that I wrote while working on previos projects
 ------------------
 
 **Title**:Login failed
+
 **Description**: When I try to login in my account the log in fail.
+
 **Precondition**: Navigate to https://demo.prestashop.com/
 
 **Steps to reproduce**: 
@@ -46,11 +49,17 @@ Below are some Bug report samples that I wrote while working on previos projects
 3. Press "Sing in" button.
 
 **Expected results**: The log is successfully and the home page is displayed.
+
 **Actual results**: The login is failed, and a error message "Authentication failed." is displayed.
+
 **Occurrence**: Systematic
+
 **Severity**: High
+
 **Priority**: High
+
 **Browser**: Edge
+
 **Module**: Sing in.
 
 --------------------
@@ -86,7 +95,9 @@ Below are some Bug report samples that I wrote while working on previos projects
 ------------------
 
 **Title**: New account with data of existent account.
+
 **Description**: Can create a new account with data of existent one.
+
 **Precondition**: 
 Navigate https://demo.prestashop.com/
 Click on the "Sing" in item.
@@ -99,18 +110,26 @@ Click on the "Sing" in item.
 5.Press Save" button.
 
 **Expected results**: The new account creation failed and a error notification "The account already exists.
+
 **Actual results**: The New account can be created with data of existent account and a notification is missing.
+
 **Occurrence**: Systematic
+
 **Severity**: Medium
+
 **Priority**: Medium
+
 **Broeser**:Chrome, Edge.
 
 
 -------------------
 
 **Title**Account created with invalid data.
+
 **Description**: The new account is successfully created with invalid email address.
-*8Precondition**: Navigate to https://demo.prestashop.com/
+
+**Precondition**: Navigate to https://demo.prestashop.com/
+
 **Steps to reproduce**
 1. Click on the "Sing in" item
 2.Click on the "No account? Create one here"
@@ -120,12 +139,19 @@ Click on the "Sing" in item.
 7. Blank "Birthdate"
 8. Check all check-boxes.
 9. Press "Save" button
+
 **Expected results**: The new account must be created with valid data and a successfully notification is visible.
+
 **Actual results**: The new account can be created with invalid data and successfully notification is missing.
+
 **Occurrance**: Systematic
+
 **Severity**: High
+
 **Priority**: Medium
+
 **Module**: New account
+
 **Browser**: Edge
 
 -----------------
@@ -135,18 +161,26 @@ Click on the "Sing" in item.
 **Description**: The site is crashed when I connect in the account and Click twice on the back button.
 
 **Precondition**: Navigate to https://demo.prestashop.com
+
 **Steps to reproduce**: 
 1. Click on the "Sing in item"
 2. Login with email: 123456@2345 password: teste
 3. Multiple Clicks on the Back button.
 
 **Expected results**: The account page should be displayed.
+
 **Actual results**: The page is crashed.
+
 **Occurrence**: Systematic
+
 **Severity**: Critic
+
 **Priority**: Critic
+
 **Module**: Login account
+
 **Browser**: Edge.
+
 **Attachments**
 Drop files to attach, or browse.
 Image 2022-12-2
@@ -171,12 +205,18 @@ The imagine is displayed from each product.
 The imagine are not displayed from all products.
 
 **Occurrence**: Systematic
+
 **Additional info**:
 This issue is reproduce in all pages and categories of the site.
+
 **Severity**: Low
+
 **Priority**: High
+
 **Module**: Home page
+
 **Browser**: Edge.
+
 **Attachments**
 Drop files to attach, or browse.
 3.JPG
@@ -203,8 +243,12 @@ Just now
   
  **Actual results**: 
  The web site is not respond to the command.
-** Occurrence**: 
+ 
+**Occurrence**: 
  **Severity**: Critic 
+ 
  **Priority**: Critic 
-** Browser**: Edge 
+ 
+**Browser**: Edge,Chrome
+
  **Module**: Order.
