@@ -5,6 +5,7 @@ Below are some Bug report samples that I wrote while working on previos projects
 
 **Title**:Order is successfully with invalid shipping address.
 
+
 **Description**: The order is accepted with an invalid shipping address.
 
 **Precondition**:
